@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142592F91DA7CC8100CA6FD1 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142592F81DA7CC8100CA6FD1 /* Video.swift */; };
 		1452C96D1DA44E5300E536E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452C96C1DA44E5300E536E0 /* AppDelegate.swift */; };
 		1452C96F1DA44E5300E536E0 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452C96E1DA44E5300E536E0 /* HomeController.swift */; };
 		1452C9721DA44E5300E536E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1452C9701DA44E5300E536E0 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		142592F81DA7CC8100CA6FD1 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		1452C9691DA44E5300E536E0 /* youtube-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1452C96C1DA44E5300E536E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1452C96E1DA44E5300E536E0 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		142592F71DA7CC6900CA6FD1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				142592F81DA7CC8100CA6FD1 /* Video.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		1452C9601DA44E5300E536E0 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		1452C96B1DA44E5300E536E0 /* youtube-clone */ = {
 			isa = PBXGroup;
 			children = (
+				142592F71DA7CC6900CA6FD1 /* Models */,
 				14ED51DA1DA68EBA00BC033A /* views */,
 				14ED51DD1DA68F3700BC033A /* controllers */,
 				14ED51D71DA68E1500BC033A /* helpers */,
@@ -170,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1452C96F1DA44E5300E536E0 /* HomeController.swift in Sources */,
+				142592F91DA7CC8100CA6FD1 /* Video.swift in Sources */,
 				14ED51DC1DA68EE700BC033A /* VideoCell.swift in Sources */,
 				14ED51D91DA68E4200BC033A /* Extensions.swift in Sources */,
 				1452C96D1DA44E5300E536E0 /* AppDelegate.swift in Sources */,
